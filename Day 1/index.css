@@ -22,13 +22,21 @@ li {
 }
 
 img {
-    position: sticky;
+    /* position: sticky; */
     left: 12%;
 }
 
 .row {
     display: flex;
     margin: 0%;
+}
+
+.column {
+    margin-left: 10px;
+}
+
+.card {
+    padding: 5px;
 }
 
 [class*="col-"] {
@@ -83,12 +91,6 @@ img {
     flex-basis: 100%;
 }
 
-@media screen and (min-width:1024px) {
-    .row {
-        display: flex;
-    }
-}
-
 @media screen and (min-width:768px) and (max-width:1023px) {
     .left {
         display: none;
@@ -110,3 +112,9 @@ img {
         width: 100%;
     }
 }
+
+/* @media screen and (min-width:1024px) {
+    .row {
+        display: flex;
+    }
+} */
